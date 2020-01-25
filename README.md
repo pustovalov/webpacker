@@ -4,7 +4,6 @@
 [![node.js](https://img.shields.io/badge/node-%3E%3D%2010.13.0-brightgreen.svg)](https://www.npmjs.com/package/@rails/webpacker)
 [![Gem](https://img.shields.io/gem/v/webpacker.svg)](https://rubygems.org/gems/webpacker)
 
-
 Webpacker makes it easy to use the JavaScript pre-processor and bundler
 [webpack 4.x.x+](https://webpack.js.org/)
 to manage application-like JavaScript in Rails. It coexists with the asset pipeline,
