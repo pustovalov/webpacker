@@ -48,6 +48,8 @@ in which case you may not even need the asset pipeline. This is mostly relevant 
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+1
+
 ## Prerequisites
 
 - Ruby 2.4+
