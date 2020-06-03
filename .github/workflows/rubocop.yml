@@ -16,14 +16,15 @@ jobs:
           2.7
         ]
 
+
     steps:
       - uses: actions/checkout@v2
       - uses: actions/cache@v2
         with:
           path: /home/runner/bundle
-          key: bundle-gems-${{ hashFiles('**/Gemfile.lock') }}
+          key: bundle-use-ruby-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
-            bundle-gems-
+            bundle-use-ruby-
 
       - uses: ruby/setup-ruby@v1
         with:
